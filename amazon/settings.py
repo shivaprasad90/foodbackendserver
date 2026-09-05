@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-8)qeurakg39vu9pnk7_gs=thn&ih)b*yy-7h9un(+vu$6emg$_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.onrender.com','https://react-first-project-murex.vercel.app/']
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
@@ -130,4 +130,4 @@ MAILERS = {
     },
 }
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:5175/']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173/','https://react-first-project-murex.vercel.app/']
